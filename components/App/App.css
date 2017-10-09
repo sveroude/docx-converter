@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Noto';
+    src: url('../../fonts/notoserif-regular-webfont.woff2') format('woff2'),
+    url('../../fonts/notoserif-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url('../../fonts/notoserif-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/notoserif-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+}
+
+* {
+    quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+body {
+    margin: 0;
+    font-family: Noto, serif;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: "kern", "liga";
+    -webkit-font-smoothing: antialiased;
+    color: #323232;
+    background-color: #BED2D9;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+h1, .h1 {
+    font-weight: 300;
+    font-size: 2.25rem;
+}
+
+h2, .h2 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+button,
+.button {
+    display: inline-block;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #BED2D9;
+    color: #323232;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+    background-color: #ACC0C7;
+}
+
+button:disabled,
+.button:disabled {
+    background-color: #ECF1F2;
+    color: #ABABAB;
+}
+
+.content {
+    background-color: #BED2D9;
+    padding: 0 calc(50% - 437px) 1rem;
+}
+
+main {
+    margin: 0 0.5rem;
+    padding: 3rem 1rem;
+    background-color: white;
+}
+
+@media print {
+
+    body {
+        background-color: inherit;
+    }
+
+    .content {
+        margin: 0;
+        background-color: white;
+    }
+
+    .app-header,
+    button {
+        display: none;
+    }
+
+    .drag-and-dropped {
+        border: none !important;
+        height: auto !important;
+    }
+
+    .file {
+        height: auto !important;
+    }
+}
+
+@page { size: auto;  margin: 0; }

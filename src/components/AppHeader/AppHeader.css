@@ -1,0 +1,12 @@
+.app-header {
+    padding: 1rem 0.5rem;
+    background-color: #BED2D9;
+}
+
+.app-title {
+    display: inline-block;
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: bold;
+    vertical-align: middle;
+}

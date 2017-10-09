@@ -1,0 +1,31 @@
+.drag-and-drop {
+    height: 440px;
+    width: calc(100% - 16px);
+    margin-bottom: 1rem;
+    border: 8px dashed #ddd;
+}
+
+.drag-and-dropped {
+    height: 442px;
+    width: calc(100% - 2px);
+    margin-bottom: 1rem;
+    border: 1px solid #b3b3b3;
+}
+
+.drag-and-drop-text {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.file {
+    height: 378px;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.error {
+    color: #ed3e4e;
+}

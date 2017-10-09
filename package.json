@@ -1,0 +1,26 @@
+{
+  "name": "docx-converter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mammoth": "1.4.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-file-drag-and-drop": "0.1.6",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "devDependencies": {
+    "chokidar-cli": "1.2.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-clean-css": "3.7.0",
+    "gulp-less": "3.3.2",
+    "gulp-plumber": "1.1.0",
+    "gulp-sourcemaps": "2.6.0",
+    "http-server": "0.10.0",
+    "npm-run-all": "4.0.2"
+  }
+}
